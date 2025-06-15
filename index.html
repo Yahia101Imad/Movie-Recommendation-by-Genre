@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies for you</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="w-full h-screen flex justify-center items-center">
+        <div id="container" class="w-1/2 h-5/6 bg-[#393a41] text-stone-200 rounded-xl shadow-xl">
+            <div id="hero" class="h-2/8 px-20 pt-22">
+                <p class="text-[#90909a] text-sm">Question 1 of 1</p>
+                <p class="text-zinc-50 text-2xl">Choose your preferable categories of movies :</p>
+            </div>
+            <div id="main" class="h-5/8 grid grid-cols-4 grid-rows-5 gap-3 mt-6 mx-20 pb-14">
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="28">Action</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="12">Adventure</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="16">Animation</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="35">Comedy</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="80">Crime</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="99">Documentary</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="18">Drama</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="10751">Family</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="14">Fantasy</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="36">History</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="27">Horror</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="10402">Music</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="9648">Mystery</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="10749">Romance</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="878">Science Fiction</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="10770">TV Movie</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="53">Thriller</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="10752">War</button>
+                <button class="bg-[#3d3e44] border-1 border-zinc-500 rounded-xl cursor-pointer" onclick="getId(this)" data-id="37">Western</button>
+            </div>
+            <div class="h-1/8 flex justify-end items-center pr-8 bg-[#323339] rounded-b-xl" id="finish">
+                <button class="bg-[#3d3e44] px-6 py-2 rounded-xl cursor-pointer hover:bg-[#394d9c]" id="finish-btn">Finish 🎉</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
