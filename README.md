@@ -27,7 +27,7 @@ Users select their favorite movie genres, and the app suggests matching movies u
 
 - ✅ Allow users to select one or more movie genres from a clean, responsive UI.
 - ✅ Visually indicate selected genres with toggle behavior (highlight on click).
-- 🎯 Store selected genres in memory to be used in the next page.
+- ✅ Store selected genres in memory to be used in the next page.
 
 ---
 
