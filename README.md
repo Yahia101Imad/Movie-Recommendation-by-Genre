@@ -17,6 +17,7 @@ Users select their favorite movie genres, and the app suggests matching movies u
 
 - **HTML**
 - **Tailwind CSS**
+- **CSS**
 - **JavaScript (Vanilla)**
 
 ---
@@ -33,9 +34,14 @@ Users select their favorite movie genres, and the app suggests matching movies u
 
 ### 📄 Page 2: Movie Suggestions
 
-- 🎯 Use the selected genres to fetch a list of movies from the [TMDB API](https://www.themoviedb.org/documentation/api).
-- 🎞️ Display suggested movies in a **slide-style layout** (carousel or horizontal scroll).
-- 🧭 Allow navigation between movie cards using intuitive controls or gestures.
+- ✅ Use the selected genres to fetch a list of movies from the [TMDB API](https://www.themoviedb.org/documentation/api).
+- ✅ Display suggested movies in a **slide-style layout** (carousel or horizontal scroll).
+- ✅ Allow navigation between movie cards using intuitive controls or gestures.
+  **NOTE:**
+
+  This project is inspired by a tutorial on Webleb.
+  Original source: https://www.web-leb.com/en/code/2078
+  Modified and adapted for educational and personal learning purposes.
 
 ---
 
